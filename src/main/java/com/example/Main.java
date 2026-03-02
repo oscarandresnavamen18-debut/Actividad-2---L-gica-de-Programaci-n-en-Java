@@ -37,6 +37,31 @@ public class Main {
         System.out.println("------Entrada de Datos------");
         EntradaDeDatos.leerVariosTipos();
         EntradaDeDatos.manejarSaltoDeLineaPendiente();
+
+
+        System.out.println("------Estructura de Condicionales------");
+        EstructurasCondicionales.ejemploIf(); 
+        EstructurasCondicionales.ejemploIfElse();
+        EstructurasCondicionales.ejemploElseIfElse();   
+        EstructurasCondicionales.ejemploSwitch();
+        EstructurasCondicionales.ejemploSwitchExpression();
+         
+        System.out.println("------Estructura de Repetición------");
+        EstructurasDeRepeticion.ejemploWhile();
+        EstructurasDeRepeticion.ejemploDoWhile();
+        EstructurasDeRepeticion.ejemploForClasico();
+        EstructurasDeRepeticion.ejemploForAnidado();
+        EstructurasDeRepeticion.ejemploBreakContinue();
+        //EstructurasDeRepeticion.ejemploEtiquetas();
+
+
+
+        System.out.println("------metodos estaticos simples ------");
+        MetodosEstaticosSimples. ejemploDeclaracionLlamada();
+         MetodosEstaticosSimples.ejemploPasoParametros(5,2);
+        MetodosEstaticosSimples.ejemploValorRetorno("Oscar Navarro");
+        MetodosEstaticosSimples.ejemploSobrecarga(10,5);
+
     }
 
 
