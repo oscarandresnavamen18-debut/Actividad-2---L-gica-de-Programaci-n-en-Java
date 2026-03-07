@@ -15,7 +15,7 @@ public class ArreglosUnidimensionales {
         numeros[2] = 3;
         numeros[3] = 4;
         numeros[4] = 5;
-        numeros[5] = 6;
+        // la posición 5 no existe, el arreglo tiene longitud 5 (índices 0-4)
 
 
         
@@ -40,7 +40,7 @@ public class ArreglosUnidimensionales {
         System.out.println("Tercer nombre: " + nombres[2]);
         System.out.println("Cuarto nombre: " + nombres[3]);
         System.out.println("Quinto nombre: " + nombres[4]);
-        System.out.println("Sexto nombre: " + nombres[5]);
+        // no hay sexto elemento en este arreglo
         
 
         System.out.println("Primer precio: " + precios[0]);
